@@ -23,7 +23,7 @@ using Microsoft.Extensions.Logging;
 
 namespace TangramCypher.ApplicationLayer.Commands.Wallet
 {
-    [CommandDescriptor(new string[] { "wallet", "send" }, "Send funds")]
+    [CommandDescriptor(new string[] { "wallet", "transfer" }, "Transfer funds")]
     public class WalletTransferCommand : Command
     {
         readonly IActorService actorService;
